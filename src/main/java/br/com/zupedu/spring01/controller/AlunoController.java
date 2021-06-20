@@ -1,6 +1,6 @@
 package br.com.zupedu.spring01.controller;
 
-import br.com.zupedu.spring01.AlunoRepository;
+import br.com.zupedu.spring01.repository.AlunoRepository;
 import br.com.zupedu.spring01.controller.DTO.AlunoRequest;
 import br.com.zupedu.spring01.controller.DTO.AlunoResponse;
 import br.com.zupedu.spring01.model.Aluno;
@@ -8,7 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.net.http.HttpResponse;
 import java.util.Optional;
 
 @RestController

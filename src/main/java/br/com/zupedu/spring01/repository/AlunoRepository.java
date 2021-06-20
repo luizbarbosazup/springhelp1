@@ -1,4 +1,4 @@
-package br.com.zupedu.spring01;
+package br.com.zupedu.spring01.repository;
 
 import br.com.zupedu.spring01.model.Aluno;
 import org.springframework.data.jpa.repository.JpaRepository;
